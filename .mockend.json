@@ -3,7 +3,7 @@
     "identifier" : "string",
     "startDate" : "string",
     "endDate" : "string",
-    "plans": "Plan[]"
+    "plans": "Plan"
   },
   "Plan" : {
     "identifier": "string",

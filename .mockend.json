@@ -3,13 +3,13 @@
     "identifier" : "string",
     "startDate" : "string",
     "endDate" : "string",
-    "plan": "Plan[]"
+    "plans": "Plan[]"
   },
   "Plan" : {
     "identifier": "string",
     "dayOfWeek": "int",
     "month": "int",
-    "dailyPlan": "DailyPlan[]"
+    "dailyPlans": "DailyPlan[]"
   },
   "DailyPlan" : {
     "identifier": "string",

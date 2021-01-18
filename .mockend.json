@@ -1,0 +1,28 @@
+{
+  "WeeklyPlan" : {
+    "identifier" : "string",
+    "startDate" : "string",
+    "endDate" : "string",
+    "plan": "Plan[]"
+  },
+  "Plan" : {
+    "identifier": "string",
+    "dayOfWeek": "int",
+    "month": "int",
+    "dailyPlan": "DailyPlan[]"
+  },
+  "DailyPlan" : {
+    "identifier": "string",
+    "title": "string",
+    "time": "string",
+    "meal": "string",
+    "imageUrl": "string",
+    "ingredients": "Ingredient[]"
+  },
+  "Ingredient" : {
+    "identifier": "string",
+    "name": "string",
+    "quantity": "int",
+    "measure": "string"
+  }
+}
